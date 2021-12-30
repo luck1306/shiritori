@@ -18,7 +18,7 @@ const form = document.getElementById("form").onsubmit = ()=>{
     }
     else {
         alert('되겠냐?');
-        document.location.href="file:///C:/Users/user/Desktop/aa/Shiritori/src/index.html?";
+        document.location.href="file:///C:/Users/user/Desktop/aa/client/Shiritori/src/index.html?";
         return false;
     }
 };
@@ -36,9 +36,6 @@ if(random_keyword === undefined) {
     random_keyword_number = keyword_random(0, files.length);
     random_keyword = files[random_keyword_number];
 };
-if (sc != undefined) {
-    random_keyword = sc;
-}
 
 keyword.innerHTML = random_keyword;
 number.innerHTML = `ㅎㅇ`;
