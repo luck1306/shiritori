@@ -1,0 +1,11 @@
+h1{color: darkolivegreen; font-size: 60px; font-weight: bold;}
+#number{color: aquamarine;}
+p {color:hotpink}
+input{color: white; background: linear-gradient(red 0%, orange 10%, yellow 20%, yellowgreen 30%, green 40%, skyblue 50%, blue 60%, navy 70%, purple 80%, brown 90%, black 100% ); border-radius: 24px; display: flex; margin-bottom: 5px; font-size: 23.7px;}
+body {
+    background: linear-gradient(red 0%,
+    blue 100%);
+}
+input::placeholder {
+    color: white;
+}
